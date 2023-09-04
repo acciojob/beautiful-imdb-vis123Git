@@ -1,2 +1,17 @@
-
-/* Your CSS Code here. */
+.poster{
+	display:flex;
+	flex-direction:column;
+	width:50vw;
+	border:1px solid black;
+	align-item:center;
+	text-align:center;
+	margin:auto;
+	border-radius:10px;
+	overflow:hidden;
+	box-shadow:100px 111px 110px -100px rgb(47,128,237), -100px -111px 110px -100px rgb(47,128,237),
+}
+.poster>img{
+	width:100%;
+	height:300px
+	border-radius:10px;
+}
